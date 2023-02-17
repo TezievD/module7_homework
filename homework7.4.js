@@ -18,9 +18,9 @@ function Characteristic(name, color) {
 	this.color = color
 }
 Characteristic.prototype = new ElectricalAppliance();
-const teapot = new Characteristic ('PC', 'Colorful');
-const fridge = new Characteristic ('Lamp', 'Whitr');
-const luminaire = new Characteristic ('Conditioner', 'green');
+const teapot = new Characteristic ('PC', 'colorful');
+const fridge = new Characteristic ('Lamp', 'white');
+const luminaire = new Characteristic ('Conditioner', 'black');
 
 console.log(teapot, fridge, luminaire);
 teapot.getPowerConsumption(1450, 2);
